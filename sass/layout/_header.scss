@@ -159,7 +159,7 @@
   }
 }
 
-.menu-mob-button {
+.mobile-menu-button {
   position: absolute;
   top: 10px;
   right: 15px;
@@ -175,8 +175,8 @@
   &__icon {
     fill: #000000;
 
-    .menu-mob-button:hover &,
-    .menu-mob-button:focus & {
+    .mobile-menu-button:hover &,
+    .mobile-menu-button:focus & {
       fill: var(--accent-color);
     }
   }
@@ -186,7 +186,7 @@
   }
 }
 
-.menu-mob {
+.mobile-menu {
   position: fixed;
   top: 0;
   right: 0;
@@ -233,7 +233,7 @@
   }
 }
 
-.mob-nav {
+.mobile-nav {
   &__item:not(:last-child) {
     margin-bottom: 32px;
   }
@@ -247,7 +247,7 @@
   }
 }
 
-.mob-contacts {
+.mobile-contacts {
   &__item {
     &:first-child {
       margin-bottom: 32px;
@@ -274,7 +274,7 @@
   }
 }
 
-.mob-social {
+.mobile-social {
   display: flex;
   flex-wrap: wrap;
 
