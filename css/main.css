@@ -75,6 +75,10 @@ body {
   background-color: var(--main-background-color);
 }
 
+body.modal-open {
+  overflow: hidden;
+}
+
 .container {
   max-width: 480px;
   padding-left: 15px;
