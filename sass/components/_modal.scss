@@ -3,8 +3,8 @@
   top: 50%;
   left: 50%;
   transform: translate(-50%, -50%);
-  width: 93.75%;
 
+  width: 93.75%;
   padding: 40px;
 
   background-color: var(--main-background-color);
@@ -30,6 +30,7 @@
     width: 11px;
     height: 11px;
     display: block;
+
     transition: fill var(--main-duration) var(--main-timing-function);
 
     .modal__close-button:hover &,
@@ -138,6 +139,7 @@
 
   &__checkbox {
     display: inline;
+
     font-size: 12px;
     line-height: 1.17;
     color: var(--paragraph-text-color);
@@ -150,15 +152,16 @@
 
   &__custom-icon {
     margin-right: 7px;
-    fill: transparent;
+
     stroke: var(--main-text-color);
     stroke-width: 1.7px;
+    fill: transparent;
     cursor: pointer;
 
     .modal__hidden-input:checked + & {
-      fill: var(--accent-color);
       stroke: transparent;
       stroke-width: 0px;
+      fill: var(--accent-color);
     }
   }
   &__agreement {
@@ -167,21 +170,21 @@
 
   &__submit-button {
     display: block;
+    min-width: 90px;
     margin-top: 30px;
     margin-left: auto;
     margin-right: auto;
-    min-width: 90px;
     padding-top: 10px;
     padding-bottom: 10px;
     padding-left: 55px;
     padding-right: 55px;
 
-    color: var(--secondary-text-color);
     font-family: var(--main-font);
     font-weight: 700;
     font-size: 16px;
     line-height: 1.87;
     letter-spacing: 0.06em;
+    color: var(--secondary-text-color);
 
     background-color: var(--accent-color);
     border: none;
