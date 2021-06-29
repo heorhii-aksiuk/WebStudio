@@ -877,9 +877,15 @@ body.modal-open {
   }
   .doing__item {
     position: relative;
+    width: calc((100% - 60px) / 3);
   }
   .doing__item:not(:last-child) {
     margin-right: 30px;
+  }
+  .doing__img {
+    display: block;
+    max-width: 100%;
+    height: auto;
   }
   .doing__description {
     display: block;
@@ -985,7 +991,7 @@ body.modal-open {
 
 .clients__item {
   height: 92px;
-  flex-basis: calc((100% - 60px) / 2);
+  width: calc((100% - 60px) / 2);
   margin: 15px;
 }
 

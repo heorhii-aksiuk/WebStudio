@@ -13,10 +13,17 @@
 
     &__item {
       position: relative;
+      width: calc((100% - 60px) / 3);
 
       &:not(:last-child) {
         margin-right: 30px;
       }
+    }
+
+    &__img {
+      display: block;
+      max-width: 100%;
+      height: auto;
     }
 
     &__description {
