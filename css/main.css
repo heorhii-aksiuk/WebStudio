@@ -1328,6 +1328,9 @@ body.modal-open {
   .card-list {
     justify-content: flex-start;
   }
+  .card-list__item {
+    width: 354px;
+  }
   .card__content {
     width: 354px;
   }
@@ -1345,7 +1348,13 @@ body.modal-open {
     justify-content: center;
   }
   .card__content {
-    width: 100%;
+    width: 370px;
+  }
+  .card-list {
+    justify-content: flex-start;
+  }
+  .card-list__item {
+    width: 370px;
   }
   .first-card {
     padding-bottom: 20px;

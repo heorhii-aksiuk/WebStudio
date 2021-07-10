@@ -146,6 +146,10 @@
 
   .card-list {
     justify-content: flex-start;
+
+    &__item {
+      width: 354px;
+    }
   }
 
   .card {
@@ -170,7 +174,15 @@
 
   .card {
     &__content {
-      width: 100%;
+      width: 370px;
+    }
+  }
+
+  .card-list {
+    justify-content: flex-start;
+
+    &__item {
+      width: 370px;
     }
   }
 
