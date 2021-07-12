@@ -148,13 +148,7 @@
     justify-content: flex-start;
 
     &__item {
-      width: 354px;
-    }
-  }
-
-  .card {
-    &__content {
-      width: 354px;
+      flex-basis: calc((100% - 60px) / 2);
     }
   }
 
@@ -172,17 +166,11 @@
     justify-content: center;
   }
 
-  .card {
-    &__content {
-      width: 370px;
-    }
-  }
-
   .card-list {
     justify-content: flex-start;
 
     &__item {
-      width: 370px;
+      flex-basis: calc((100% - 90px) / 3);
     }
   }
 

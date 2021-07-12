@@ -1329,10 +1329,7 @@ body.modal-open {
     justify-content: flex-start;
   }
   .card-list__item {
-    width: 354px;
-  }
-  .card__content {
-    width: 354px;
+    flex-basis: calc((100% - 60px) / 2);
   }
   .first-card {
     padding-bottom: 56px;
@@ -1347,14 +1344,11 @@ body.modal-open {
   .filter {
     justify-content: center;
   }
-  .card__content {
-    width: 370px;
-  }
   .card-list {
     justify-content: flex-start;
   }
   .card-list__item {
-    width: 370px;
+    flex-basis: calc((100% - 90px) / 3);
   }
   .first-card {
     padding-bottom: 20px;
