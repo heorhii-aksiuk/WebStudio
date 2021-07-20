@@ -1359,4 +1359,12 @@ body.modal-open {
   padding-top: 60px;
   padding-bottom: 60px;
 }
+
+.main-contacts__side-wrapper {
+  display: flex;
+}
+
+.main-contacts__side-section {
+  padding-left: 20px;
+}
 /*# sourceMappingURL=main.css.map */

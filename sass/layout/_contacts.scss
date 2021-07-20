@@ -1,4 +1,15 @@
 .main-contacts {
   padding-top: 60px;
   padding-bottom: 60px;
+
+  &__side-wrapper {
+    display: flex;
+  }
+
+  // &__side-map {
+  // }
+
+  &__side-section {
+    padding-left: 20px;
+  }
 }
