@@ -8,7 +8,6 @@
     font-size: 14px;
     line-height: 1.14;
     text-transform: uppercase;
-    text-align: center;
   }
 
   &__paragraph {
@@ -24,11 +23,22 @@
   }
 
   &__side-map {
-    width: 200px;
-    height: 150px;
+    display: none;
   }
 
   &__side-section {
     padding-left: 20px;
+  }
+}
+
+@media screen and (min-width: 768px) {
+  .main-contacts {
+    &__side-wrapper {
+      display: flex;
+    }
+
+    &__side-map {
+      display: block;
+    }
   }
 }
