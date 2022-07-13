@@ -1,3 +1,3 @@
 # webstudio
 
-Portfolio project. HTML&CS
+Portfolio project. HTML&CSS
